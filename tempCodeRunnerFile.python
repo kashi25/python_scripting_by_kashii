@@ -1,0 +1,21 @@
+# import sqlite3
+
+# connection = sqlite3.connect('first_sample.db')
+
+# table = 'CREATE TABLE IF NOT EXISTS TableName (Id INTEGER PRIMARY KEY, name TEXT, surname TEXT)'
+# cursor = connection.cursor()
+# cursor.execute(table)
+# connection.commit()
+
+# Added IF NOT EXISTS to the CREATE TABLE statement to ensure that the table is only created if it doesn't already exist.
+# Renamed the table to "TableName" as a placeholder. You should replace this with your desired table name.
+
+
+import sqlite3
+
+connection = sqlite3.connect('first_sample.db')
+
+table = 'CREATE TABLE people(Id INTEGER PRIMARY KEY, name TEXT, surname TEXT)'
+cursor = connection.cursor()
+cursor.execute(table)
+connection.commit()
