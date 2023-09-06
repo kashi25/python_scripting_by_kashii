@@ -1,3 +1,10 @@
+# Ignore files and folders inside the 'env' folder
+env/include/
+env/Lib/
+env/Scripts/
+env/pvvenv.cfg
+
+
 # created by virtualenv automatically
 
 # Ignore compiled Python files
