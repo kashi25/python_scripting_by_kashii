@@ -7,7 +7,10 @@ __pycache__/
 
 # Ignore virtual environment directories
 venv/
-env/
+include/
+Lib/
+Scripts/
+# env/
 
 
 # Ignore IDE specific files
@@ -33,6 +36,7 @@ Thumbs.db
 *.exe
 *.dll
 *.so
+*.cfg
 
 
 # Ignore package management files
